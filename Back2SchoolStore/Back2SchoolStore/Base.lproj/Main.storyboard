@@ -511,6 +511,12 @@
                         <viewLayoutGuide key="safeArea" id="h6x-e0-60s"/>
                     </view>
                     <navigationItem key="navigationItem" id="5iO-cQ-lub"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="OVc-2A-Qtd" id="keR-GW-nLd"/>
+                        <outlet property="errorLabel" destination="kEB-R9-BC4" id="8V9-kM-jRI"/>
+                        <outlet property="loginButton" destination="WFz-r4-rrA" id="cJY-YJ-bJR"/>
+                        <outlet property="passwordTextField" destination="JNJ-jK-wRr" id="0RE-7a-kP4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j5S-zx-oCc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
