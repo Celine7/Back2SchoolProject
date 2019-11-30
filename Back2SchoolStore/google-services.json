@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "958282914792",
+    "firebase_url": "https://ncjw-test.firebaseio.com",
+    "project_id": "ncjw-test",
+    "storage_bucket": "ncjw-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958282914792:android:6ad27fd9772dafc082e25d",
+        "android_client_info": {
+          "package_name": "com.NCJW.Back2SchoolStore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958282914792-49ej69ch1ahsodlv84mnd94mkbcc9e31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuGIn1O4181dqLwImmxbWsKeEoX_uERws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958282914792-49ej69ch1ahsodlv84mnd94mkbcc9e31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
