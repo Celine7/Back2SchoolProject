@@ -6,6 +6,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
 # Unnecessary Mac DS_Store
 .DS_Store
 
@@ -15,3 +16,6 @@ Pods/
 # Lock files
 .lock
 Podfile.lock
+
+# Xcode dev file
+Back2SchoolStore.xcworkspace/
