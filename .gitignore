@@ -6,4 +6,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# Unnecessary Mac DS_Store
+.DS_Store
 
+# Pods
+Pods/
+
+# Lock files
+.lock
+Podfile.lock
