@@ -9,13 +9,11 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
-
     
+    //MARK: Properties
     @IBOutlet weak var userNameTextField: UITextField!
-    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    
     @IBOutlet weak var passwordAgainTextField: UITextField!
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
@@ -36,5 +34,7 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //MARK: Actions
 
 }
