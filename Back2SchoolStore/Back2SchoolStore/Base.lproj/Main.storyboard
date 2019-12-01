@@ -117,6 +117,9 @@
                                             <constraint firstAttribute="height" constant="40" id="J6W-Hn-FkV"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="SignUpNewUser:" destination="2kw-hj-B1S" eventType="touchUpInside" id="tuH-Fd-0MD"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgz-pf-kuk">
                                         <rect key="frame" x="0.0" y="300" width="295" height="20.333333333333314"/>

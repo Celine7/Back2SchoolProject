@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: Properties
     @IBOutlet weak var userNameTextField: UITextField!
@@ -20,8 +20,12 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // Handle the text field’s user input through delegate callbacks.
+        userNameTextField.delegate = self
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        passwordAgainTextField.delegate = self
     }
     
 
@@ -35,6 +39,23 @@ class SignUpViewController: UIViewController {
     }
     */
     
+    //MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // Hide the keyboard once a user finishes editing a text field
+        textField.resignFirstResponder()
+        
+        // Return true to respond to the user pressing the Return key
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        // Handle information entered into the text field
+    }
+    
     //MARK: Actions
 
+    @IBAction func SignUpNewUser(_ sender: UIButton) {
+        // TODO: Send
+        userNameTextField.text = "TESTING..."
+    }
 }
