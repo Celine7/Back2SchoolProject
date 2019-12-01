@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		04D46EB2237E25B9007825E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D46EB1237E25B9007825E8 /* SignUpViewController.swift */; };
 		04D46EB4237E25CB007825E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D46EB3237E25CB007825E8 /* HomeViewController.swift */; };
 		04D46EB6237E25D9007825E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D46EB5237E25D9007825E8 /* LoginViewController.swift */; };
+		7D72472D2393648600217965 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D72472C2393648500217965 /* GoogleService-Info.plist */; };
 		A829E25798862538573A2815 /* Pods_Back2SchoolStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD100460EA08BBCB87202D3E /* Pods_Back2SchoolStore.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		04D46EB3237E25CB007825E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04D46EB5237E25D9007825E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1E55A6A9FB0B0D5D5D443DBE /* Pods-Back2SchoolStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Back2SchoolStore.release.xcconfig"; path = "Target Support Files/Pods-Back2SchoolStore/Pods-Back2SchoolStore.release.xcconfig"; sourceTree = "<group>"; };
+		7D72472C2393648500217965 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		94663A1292B18F1CDB8E455C /* Pods-Back2SchoolStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Back2SchoolStore.debug.xcconfig"; path = "Target Support Files/Pods-Back2SchoolStore/Pods-Back2SchoolStore.debug.xcconfig"; sourceTree = "<group>"; };
 		AD100460EA08BBCB87202D3E /* Pods_Back2SchoolStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Back2SchoolStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 		04D46E9C237E257A007825E8 /* Back2SchoolStore */ = {
 			isa = PBXGroup;
 			children = (
+				7D72472C2393648500217965 /* GoogleService-Info.plist */,
 				04D46EB7237E25DD007825E8 /* View Controllers */,
 				04D46E9D237E257A007825E8 /* AppDelegate.swift */,
 				04D46E9F237E257A007825E8 /* SceneDelegate.swift */,
@@ -97,7 +100,6 @@
 				94663A1292B18F1CDB8E455C /* Pods-Back2SchoolStore.debug.xcconfig */,
 				1E55A6A9FB0B0D5D5D443DBE /* Pods-Back2SchoolStore.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D46EAA237E257B007825E8 /* LaunchScreen.storyboard in Resources */,
+				7D72472D2393648600217965 /* GoogleService-Info.plist in Resources */,
 				04D46EA7237E257B007825E8 /* Assets.xcassets in Resources */,
 				04D46EA5237E257A007825E8 /* Main.storyboard in Resources */,
 			);
